@@ -64,6 +64,20 @@ li{
     font-weight: bold;
     font-family:arial,helvetica,sans-serif;
 }
+.head {
+    color: #D8031C;
+    font-weight: bold;
+    font-size: 16pt;
+}
+.subhead {
+    color: #01016F;
+    font-weight: bold;
+    font-size: 14pt;
+}
+.maintext {
+    color: #000000;
+    font-size: 11pt;
+}
 
 /* responsive table formatting */
 	
