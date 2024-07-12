@@ -161,7 +161,7 @@ font-size: 11pt;
 		min-width: 120px;
 	        padding-right: 3vw;
 	  }
-	.table-body-cell.equipment::before {
+	.table-body-cell.equip::before {
 		content: "Equipment:";
 		font-weight: bold;
 		text-align: left;
