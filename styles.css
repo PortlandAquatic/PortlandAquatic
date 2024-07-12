@@ -82,6 +82,23 @@ li{
 }
 
 
+/* arrow list */
+ul.arrow-list {
+	list-style:none;
+}
+ul.arrow-list li {
+    font-size: 11pt;
+    font-family:arial,helvetica,sans-serif;
+    padding-left: 1em;
+    text-indent: -1.2em;
+    margin: 10px 0;
+}
+ul.arrow-list li:before {
+    content: "\21E8 \0020";
+    color: #000000;
+    font-weight: bold;
+}
+
 /* responsive table formatting */
 	
 .resp-table {
