@@ -60,11 +60,6 @@ li{
     font-weight: bold;
     font-family:arial,helvetica,sans-serif;
 }
-.container {
-    display:grid;
-    grid-template-columns: 60px [col1] auto [col2];
-    grid-template-rows: 0.50fr [row1] 0.50fr 0.50fr;
-}
 
 * {
   box-sizing: border-box;
@@ -241,3 +236,8 @@ p.stylesheet {display:none !important;}
     a.button.blue, a.button.red,a.button.ltblue { float:none; margin: 0 8px;}
 }
 
+.container {
+    display:grid;
+    grid-template-columns: 60px [col1] auto [col2];
+    grid-template-rows: 0.50fr [row1] 0.50fr 0.50fr;
+}
