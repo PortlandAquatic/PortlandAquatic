@@ -64,6 +64,48 @@ li{
     font-weight: bold;
     font-family:arial,helvetica,sans-serif;
 	}
+
+/* responsive table formatting for fees page */
+	
+.resp-table {
+width: 100%;
+display: table;
+table-layout: auto;
+}
+.resp-table-header{
+display: table-header-group;
+background-color: #9FCBEE;
+color: white;
+}
+.table-header-cell{
+display: table-cell;
+padding: 10px;
+margin: auto;
+border-bottom: 1px solid black;
+font-weight: bold;
+font-size: 11pt;
+}
+.resp-table-body{
+display: table-row-group;
+}
+.resp-table-row{
+display: table-row;
+}
+.table-row-label{
+display: table-cell;
+text-align: left;
+padding: 10px;
+border-bottom: 1px solid black;
+font-size: 11pt;
+}
+.table-body-cell{
+display: table-cell;
+text-align: right;
+padding: 10px;
+border-bottom: 1px solid black;
+font-size: 11pt;
+}
+
 @media only screen and (max-width: 750px){
     img{
         padding-top: 4vw !important;
@@ -73,7 +115,59 @@ li{
         height: 100% !important;
         float: none !important;
         display: block !important;
+	}    
+	.resp-table-header {
+	  display: none;
 	}
+	.table-body-cell {
+	  display: flex;
+	}
+	.table-row-label {
+	  display: flex;
+	}
+	
+	 .table-body-cell.fee::before {
+	  content: "PAC Reg Fee:";
+	  font-weight: bold;
+	  width: 120px;
+	  min-width: 120px;
+      padding-right: 3vw;
+	} 
+	  .table-body-cell.type::before {
+	  content: "Membership Type:";
+	  font-weight: bold;
+	  width: 120px;
+	  min-width: 120px;
+      padding-right: 3vw;
+	}
+	.table-body-cell.dues::before {
+		content: "Annual Dues (monthly payment):";
+		font-weight: bold;
+		width: 120px;
+		min-width: 120px;
+        padding-right: 3vw;
+	  }
+	  .table-body-cell.fundraising::before {
+		content: "Fundraising:";
+		font-weight: bold;
+		width: 120px;
+		min-width: 120px;
+        padding-right: 3vw;
+	  }
+	  .table-body-cell.service::before {
+		content: "Service Hours:";
+		font-weight: bold;
+		width: 120px;
+		min-width: 120px;
+        padding-right: 3vw;
+	  }
+    
+	
+	 .table-row-label.group{
+	  background-color: #9FCBEE;
+	  color: white;
+	  }
+  }
 
 /* header big buttons */
 .OrganLink img {
@@ -103,3 +197,4 @@ p.stylesheet {display:none !important;}
     p { text-align: center; }
     a.button.blue, a.button.red,a.button.ltblue { float:none; margin: 0 8px;}
 }
+
