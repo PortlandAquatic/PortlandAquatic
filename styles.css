@@ -139,6 +139,10 @@ ul.arrow-list li:before {
 	border-bottom: 1px solid black;
 	font-size: 11pt;
 }
+.table-body-cell.left{
+	text-align: left;
+}
+
 .table-body-cell.equip {
 	text-align: left;
 	min-width: 120px;
