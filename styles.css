@@ -2,7 +2,80 @@ h1 {
 	color: red;
 }	
 
-/* header buttons */
+/* global styles */
+h1 {
+    color: #D8031C;
+    font-weight: bold;
+    font-family:arial,helvetica,sans-serif;
+    font-size: 16pt;
+	}
+h2 {
+    color: #01016F;
+    font-weight: bold;
+    font-size: 14pt;
+    font-family:arial,helvetica,sans-serif;
+    margin-top: 35px;
+	}
+p {
+    color: #000000;
+    font-size: 11pt;
+    font-family:arial,helvetica,sans-serif;
+	}
+a   {
+    text-decoration: underline;
+    font-family:arial,helvetica,sans-serif;
+    outline: none;
+    }
+a:link {
+    color: #6497bf;
+    font-family:arial,helvetica,sans-serif;
+    }
+a:visited {
+    color: #9fcbee;
+    font-family:arial,helvetica,sans-serif;
+    }
+li{
+    color: #000000;
+    font-size: 11pt;
+    font-family:arial,helvetica,sans-serif;
+    margin: 10px 0;
+}
+.question {
+    background-color: #9FCBEE; 
+    border-radius: 25px;
+    padding-left: 10px; 
+    padding-top: 10px; 
+    padding-bottom: 10px;
+	color: white;
+    font-family:arial,helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 11pt;
+	}
+.answer {
+    padding-left: 10px; 
+    padding-top: 10px; 
+    padding-bottom: 15px; 
+    font-size: 11pt;
+    font-family:arial,helvetica,sans-serif;
+	}
+.emphasis {
+    color: #5A5A5A;
+    font-size: 11pt;
+    font-weight: bold;
+    font-family:arial,helvetica,sans-serif;
+	}
+@media only screen and (max-width: 750px){
+    img{
+        padding-top: 4vw !important;
+        padding-bottom: 4vw !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        height: 100% !important;
+        float: none !important;
+        display: block !important;
+	}
+
+/* header big buttons */
 .OrganLink img {
     width: 69px !important;
 }
