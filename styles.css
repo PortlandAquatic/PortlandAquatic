@@ -65,7 +65,7 @@ li{
     font-family:arial,helvetica,sans-serif;
 	}
 
-/* responsive table formatting for fees page */
+/* responsive table formatting */
 	
 .resp-table {
 width: 100%;
@@ -127,39 +127,47 @@ font-size: 11pt;
 	}
 	
 	 .table-body-cell.fee::before {
-	  content: "PAC Reg Fee:";
-	  font-weight: bold;
-	  width: 120px;
-	  min-width: 120px;
-      padding-right: 3vw;
+	  	content: "PAC Reg Fee:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
 	} 
 	  .table-body-cell.type::before {
-	  content: "Membership Type:";
-	  font-weight: bold;
-	  width: 120px;
-	  min-width: 120px;
-      padding-right: 3vw;
+	  	content: "Membership Type:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
 	}
 	.table-body-cell.dues::before {
 		content: "Annual Dues (monthly payment):";
 		font-weight: bold;
 		width: 120px;
 		min-width: 120px;
-        padding-right: 3vw;
+        	padding-right: 3vw;
 	  }
 	  .table-body-cell.fundraising::before {
 		content: "Fundraising:";
 		font-weight: bold;
 		width: 120px;
 		min-width: 120px;
-        padding-right: 3vw;
+        	padding-right: 3vw;
 	  }
 	  .table-body-cell.service::before {
 		content: "Service Hours:";
 		font-weight: bold;
 		width: 120px;
 		min-width: 120px;
-        padding-right: 3vw;
+	        padding-right: 3vw;
+	  }
+	.table-body-cell.equipment::before {
+		content: "Equipment:";
+		font-weight: bold;
+		text-align: left;
+		width: 120px;
+		min-width: 120px;
+	        padding-right: 3vw;
 	  }
     
 	
