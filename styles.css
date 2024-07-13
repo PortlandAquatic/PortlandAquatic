@@ -148,8 +148,23 @@ ul.arrow-list li:before {
 	min-width: 120px;
 	padding-right: 3vw;
 }
+.table-body-cell.equip::before {
+	content: "Required Equipment:";
+	font-weight: bold;
+	width: 120px;
+	min-width: 120px;
+	padding-right: 3vw;
+} 
+.table-body-cell.group {
+	background-color: #9FCBEE;
+	color: white;
+}    
+.table-row-label.group{
+	background-color: #9FCBEE;
+	color: white;
+}
 
-
+	
 @media only screen and (max-width: 750px){
     img{
         padding-top: 4vw !important;
