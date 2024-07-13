@@ -75,13 +75,6 @@ li{
   clear: both;
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-}
-
-
 /* arrow list */
 ul.arrow-list {
 	list-style:none;
@@ -165,6 +158,37 @@ ul.arrow-list li:before {
 }
 
 	
+
+
+/* header big buttons */
+.OrganLink img {
+    width: 69px !important;
+}
+a.button.blue, a.button.red, a.button.ltblue {
+    display: inline-block;
+    background-color: rgb(24, 41, 87);
+    color: #fff;
+    padding: 12px;
+    float: left;
+    border-radius: 5px;
+    margin: 12px 15px 12px 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+a.button.ltblue { background-color: #6497bf; }
+a.button.red { background-color: #D8031C; }
+a.button:hover { text-decoration: none; }
+
+
+p.stylesheet {display:none !important;}    
+
+
+.container {
+    display:grid;
+    grid-template-columns: 60px [col1] auto [col2];
+    grid-template-rows: 0.50fr [row1] 0.50fr 0.50fr;
+}
+
 @media only screen and (max-width: 750px){
     img{
         padding-top: 4vw !important;
@@ -226,37 +250,15 @@ ul.arrow-list li:before {
 	  }
   }
 
-/* header big buttons */
-.OrganLink img {
-    width: 69px !important;
-}
-a.button.blue, a.button.red, a.button.ltblue {
-    display: inline-block;
-    background-color: rgb(24, 41, 87);
-    color: #fff;
-    padding: 12px;
-    float: left;
-    border-radius: 5px;
-    margin: 12px 15px 12px 0px;
-    font-size: 16px;
-    font-weight: 600;
-}
-a.button.ltblue { background-color: #6497bf; }
-a.button.red { background-color: #D8031C; }
-a.button:hover { text-decoration: none; }
-
-
-p.stylesheet {display:none !important;}    
-
-
 @media (max-width: 991px) {
     .OrganLink img { display: none; }
     p { text-align: center; }
     a.button.blue, a.button.red,a.button.ltblue { float:none; margin: 0 8px;}
 }
 
-.container {
-    display:grid;
-    grid-template-columns: 60px [col1] auto [col2];
-    grid-template-rows: 0.50fr [row1] 0.50fr 0.50fr;
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
 }
