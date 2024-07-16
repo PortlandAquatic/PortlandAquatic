@@ -130,7 +130,7 @@ ul.arrow-list li:before {
 }
 .table-body-cell{
 	display: table-cell;
-	text-align: right;
+	text-align: left;
 	padding: 10px;
 	border-bottom: 1px solid black;
 	font-size: 11pt;
