@@ -10,7 +10,7 @@ h2 {
     font-weight: bold;
     font-size: 14pt;
     font-family:arial,helvetica,sans-serif;
-    margin-top: 35px;
+    margin-top: 15px;
 	}
 p {
     color: #000000;
@@ -74,6 +74,9 @@ li{
   display: table;
   clear: both;
 }
+
+.onethird { width: 33%; float:left; padding-right:5%; }
+.twothirds { width: 66%; float: left; }
 
 /* arrow list */
 ul.arrow-list {
@@ -248,11 +251,12 @@ p.stylesheet {display:none !important;}
 	  	background-color: #9FCBEE;
 	  	color: white;
 	  }
+	.onethird { width: 100%; float:left; padding-right:0; }
+.twothirds { width: 100%; float: left; }
   }
 
 @media (max-width: 991px) {
     .OrganLink img { display: none; }
-    p { text-align: center; }
     a.button.blue, a.button.red,a.button.ltblue { float:none; margin: 0 8px;}
 }
 
