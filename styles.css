@@ -211,7 +211,29 @@ p.stylesheet {display:none !important;}
 	.table-row-label {
 	  display: flex;
 	}
+
+	.table-body-cell.meetdates::before {
+	 	content: "Meet Dates:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
+	.table-body-cell.invited::before {
+	 	content: "Swimmers Invited:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
 	
+	.table-body-cell.required::before {
+	 	content: "Swimmers Required:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
 	 .table-body-cell.fee::before {
 	  	content: "PAC Reg Fee:";
 	  	font-weight: bold;
