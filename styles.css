@@ -234,6 +234,13 @@ p.stylesheet {display:none !important;}
 	  	min-width: 120px;
       		padding-right: 3vw;
 	} 
+	.table-body-cell.meetlocation::before {
+	 	content: "Location:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
 	 .table-body-cell.fee::before {
 	  	content: "PAC Reg Fee:";
 	  	font-weight: bold;
