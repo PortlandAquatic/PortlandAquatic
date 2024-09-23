@@ -39,11 +39,12 @@ p {
     color: #D8031C; /* red */	
     text-decoration: none !important;
     outline: none;
+    font-weight: 700;
 }
 #mainContent a:hover { text-decoration: underline !important; }
 ul {
     margin: 0px 0 0 24px;
-    padding: 0;
+    padding: 0 0 10px 0;
 }	
 li {
     font-size: 14px;
@@ -58,7 +59,7 @@ li {
     margin: 0;
 }
 .answer {
-    padding: 25px 25px 5px;
+    padding: 20px 25px 5px;
     margin: 10px 0;
     border-left: 5px solid #6497bf;
     background-color: #f7f7f7;
