@@ -52,6 +52,9 @@ li {
     margin: 0;
     padding: 0 0 5px 0;
 }
+span.email span.hide {
+	display: none;
+}
 .question {
     color: #6497bf;
     font-weight: 700;
@@ -90,8 +93,6 @@ ul.arrow-list {
 	list-style:none;
 }
 ul.arrow-list li {
-    font-size: 11pt;
-    font-family:arial,helvetica,sans-serif;
     padding-left: 1em;
     text-indent: -1.2em;
     margin: 10px 0;
