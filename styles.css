@@ -38,13 +38,13 @@ p {
     color: #D8031C; /* red */	
     text-decoration: none !important;
     outline: none;
-    }
+}
 #mainContent a:hover { text-decoration: underline !important; }
 ul {
     margin: 0px 0 0 24px;
     padding: 0;
 }	
-li{
+li {
     font-size: 14px;
     line-height: 20px;
     margin: 0;
@@ -62,13 +62,6 @@ li{
     border-left: 5px solid #6497bf;
     background-color: #f7f7f7;
 }	
-.answer {
-    padding-left: 10px; 
-    padding-top: 10px; 
-    padding-bottom: 15px; 
-    font-size: 11pt;
-    font-family:arial,helvetica,sans-serif;
-}
 .emphasis {
     font-weight: 700;
 }	
