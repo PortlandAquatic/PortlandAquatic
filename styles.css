@@ -176,7 +176,7 @@ ul.arrow-list li:before {
 a.button.blue, a.button.red, a.button.ltblue {
     display: inline-block;
     background-color: rgb(24, 41, 87);
-    color: #fff;
+    color: #fff !important;
     padding: 12px;
     float: left;
     border-radius: 5px;
