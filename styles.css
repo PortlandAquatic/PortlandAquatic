@@ -121,7 +121,9 @@ ul.arrow-list li:before {
     width: 100%;
 }
 
-
+iframe.schedule {
+    max-width: 100%;
+}
 /* responsive table formatting */
 	
 .resp-table {
