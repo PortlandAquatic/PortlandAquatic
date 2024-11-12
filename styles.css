@@ -37,11 +37,11 @@ p {
    }
 #mainContent a, #mainContent a:link, #mainContent a:visited   {
     color: #D8031C; /* red */	
-    text-decoration: none !important;
+    text-decoration: underline !important;
     outline: none;
-    font-weight: 700;
+    font-weight: 600;
 }
-#mainContent a:hover { text-decoration: underline !important; }
+#mainContent a:hover { color: #6497bf; }
 ul, ol {
     margin: 0px 0 0 24px;
     padding: 0 0 10px 0;
