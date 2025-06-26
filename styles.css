@@ -208,7 +208,12 @@ a.button.ltblue { background-color: #6497bf; }
 a.button.red { background-color: #D8031C; }
 a.button:hover { text-decoration: none; }
 
-
+/* header link for swim clinic signups */
+.CMSComponentTeamLinks a {
+    color: #D8031C;
+    font-weight: 500;
+    text-decoration: underline;
+}
 p.stylesheet {display:none !important;}    
 
 
