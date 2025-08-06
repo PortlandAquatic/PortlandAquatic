@@ -124,6 +124,12 @@ ul.arrow-list li:before {
 iframe.schedule {
     max-width: 100%;
 }
+
+/* default coach page - hiding default content */
+.ContactContainer .SectionCoach .ContactDetail {
+    display: none;
+}
+
 /* responsive table formatting */
 	
 .resp-table {
