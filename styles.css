@@ -129,7 +129,7 @@ iframe.schedule {
 .ContactContainer .SectionCoach .ContactDetail {
     display: none;
 }
-.ContactContainer > .SectionCoach .ItemContainer { border-bottom: none !important; }
+.ContactContainer .SectionCoach .ItemContainer { border-bottom: none !important; }
 
 /* responsive table formatting */
 	
