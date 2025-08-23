@@ -171,6 +171,7 @@ iframe.schedule {
 	border-bottom: 1px solid black;
 	font-size: 11pt;
 }
+.table-body-cell .mobile {display: none;}
 .table-body-cell.left{
 	text-align: left;
 }
@@ -268,6 +269,7 @@ p.stylesheet {display:none !important;}
 	.table-body-cell {
 	  display: flex;
 	}
+	.table-body-cell .mobile {display: block;}
 	.table-row-label {
 	  display: flex;
 	}
