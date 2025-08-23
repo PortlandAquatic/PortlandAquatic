@@ -254,7 +254,9 @@ p.stylesheet {display:none !important;}
 	.table-row-label {
 	  display: flex;
 	}
-
+    .table-body-cell.dues {
+    max-width: unset;
+    }
 	.table-body-cell.meetdates::before {
 	 	content: "Meet Dates:";
 	  	font-weight: bold;
