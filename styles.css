@@ -177,7 +177,7 @@ iframe.schedule {
 .table-body-cell.dues {
     max-width: 260px;
 }
-.table-body-cell.fee
+.table-body-cell.fee,.table-body-cell.usa
  {
     border-bottom: none;
     border-left: 1px solid;
@@ -185,7 +185,7 @@ iframe.schedule {
     background: #f1f1f1;
     text-align: center;
 }
-.table-body-cell.fee.last { border-bottom: 1px solid; }
+.table-body-cell.fee.last, table-body-cell.usa { border-bottom: 1px solid; }
 .table-body-cell.equip {
 	text-align: left;
 	min-width: 120px;
