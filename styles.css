@@ -193,7 +193,7 @@ iframe.schedule {
     text-align: center;
 }
 .table-body-cell.fee.last { border-bottom: 1px solid; }
-table-body-cell.usa.last { border-bottom: 1px solid; }
+.table-body-cell.usa.last { border-bottom: 1px solid; }
 .table-body-cell.equip {
 	text-align: left;
 	min-width: 120px;
@@ -303,6 +303,13 @@ p.stylesheet {display:none !important;}
 	  	min-width: 120px;
       		padding-right: 3vw;
 	} 
+	.table-body-cell.fee {
+    border-bottom: 1px solid;
+    border-left: none;
+    border-right: none;
+    background: #fff;
+    text-align: left;
+    }
 	 .table-body-cell.fee::before {
 	  	content: "PAC Reg Fee:";
 	  	font-weight: bold;
@@ -310,6 +317,7 @@ p.stylesheet {display:none !important;}
 	  	min-width: 120px;
       		padding-right: 3vw;
 	} 
+	
 	  .table-body-cell.type::before {
 	  	content: "Membership Type:";
 	  	font-weight: bold;
@@ -317,6 +325,13 @@ p.stylesheet {display:none !important;}
 	  	min-width: 120px;
       		padding-right: 3vw;
 	}
+	.table-body-cell.usa {
+    border-bottom: 1px solid;
+    border-left: none;
+    border-right: none;
+    background: #fff;
+    text-align: left;
+    }
 	  .table-body-cell.usa::before {
 	  	content: "USA Swim Reg Fee:";
 	  	font-weight: bold;
