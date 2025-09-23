@@ -22,7 +22,7 @@ h2 {
     padding: 0 0 15px 0;
 }
 h3 {
-    color: #6497bf; /* slate blue */
+    color: #8ba0c4; /* slate blue */
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
@@ -41,7 +41,7 @@ p {
     outline: none;
     font-weight: 600;
 }
-#mainContent a:hover { color: #6497bf; }
+#mainContent a:hover { color: #8ba0c4; }
 ul, ol {
     margin: 0px 0 0 24px;
     padding: 0 0 10px 0;
@@ -56,7 +56,7 @@ span.email span.hide {
 	display: none;
 }
 .question {
-    color: #6497bf;
+    color: #8ba0c4;
     font-weight: 700;
     font-size: 16px;
     margin: 0;
@@ -64,7 +64,7 @@ span.email span.hide {
 .answer {
     padding: 20px 25px 5px;
     margin: 10px 0;
-    border-left: 5px solid #6497bf;
+    border-left: 5px solid #8ba0c4;
     background-color: #f7f7f7;
 }	
 .emphasis {
@@ -140,7 +140,7 @@ iframe.schedule {
 }
 .resp-table-header{
 	display: table-header-group;
-	background-color: #9FCBEE;
+	background-color: #8ba0c4;
 	color: white;
 }
 .table-header-cell{
@@ -199,11 +199,11 @@ iframe.schedule {
 	padding-right: 3vw;
 }
 .table-body-cell.group {
-	background-color: #9FCBEE;
+	background-color: #8ba0c4;
 	color: white;
 }    
 .table-row-label.group{
-	background-color: #9FCBEE;
+	background-color: #8ba0c4;
 	color: white;
 }
 
@@ -229,7 +229,7 @@ a.button.blue, a.button.red, a.button.ltblue {
     font-size: 16px;
     font-weight: 600;
 }
-a.button.ltblue { background-color: #6497bf; }
+a.button.ltblue { background-color: #8ba0c4; }
 a.button.red { background-color: #9d2762; /* magenta */ }
 a.button:hover { text-decoration: none; }
 
@@ -240,7 +240,7 @@ a.button:hover { text-decoration: none; }
     text-decoration: underline;
 }
 .CMSComponentTeamLinks a:hover {
-    color: #6497bf;
+    color: #8ba0c4;
 }
 p.stylesheet {display:none !important;}    
 
@@ -368,7 +368,7 @@ p.stylesheet {display:none !important;}
 	     padding-right: 3vw;
          } 
 	 .table-row-label.group{
-	  	background-color: #9FCBEE;
+	  	background-color: #8ba0c4;
 	  	color: white;
 	  }
 	.onethird { width: 100%; float:left; padding-right:0; }
