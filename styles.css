@@ -392,6 +392,7 @@ p.stylesheet {display:none !important;}
 	#globalTopBar .CMSComponentGoogleTranslate {
     padding: 8px;
     }
+	.DynamicTemplate_cms_widgets_MobileHeader_xhtml .AnonId__cms_widgets_MobileHeader_xhtml_menuHeader { display: none; }
 	#footerData .CMSSectionSlot.Slot0 {
     display: none;
     }
