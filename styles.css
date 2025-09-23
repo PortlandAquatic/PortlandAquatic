@@ -6,7 +6,7 @@ body {
     line-height: 20px;	
 }
 h1 {
-    color: #D8031C; /* red */
+    color: #9d2762; /* magenta */
     font-weight: 700;
     font-size: 28px;
     line-height: 34px;
@@ -36,7 +36,7 @@ p {
     padding: 0 0 15px 0;
    }
 #mainContent a, #mainContent a:link, #mainContent a:visited   {
-    color: #D8031C; /* red */	
+    color: #9d2762; /* magenta */	
     text-decoration: underline !important;
     outline: none;
     font-weight: 600;
@@ -230,12 +230,12 @@ a.button.blue, a.button.red, a.button.ltblue {
     font-weight: 600;
 }
 a.button.ltblue { background-color: #6497bf; }
-a.button.red { background-color: #D8031C; }
+a.button.red { background-color: #9d2762; /* magenta */ }
 a.button:hover { text-decoration: none; }
 
 /* header link for swim clinic signups */
 .CMSComponentTeamLinks a {
-    color: #D8031C;
+    color: #9d2762; /* magenta */
     font-weight: 500;
     text-decoration: underline;
 }
