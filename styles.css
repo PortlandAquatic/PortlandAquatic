@@ -385,6 +385,12 @@ p.stylesheet {display:none !important;}
 @media (max-width: 991px) {
     .OrganLink img { display: none; }
     a.button.blue, a.button.red,a.button.ltblue { float:none; margin: 0 8px;}
+	#footerData .CMSSectionSlot.Slot0 {
+    display: none;
+    }
+	#footerData #cms_Section_footer .CMSComponent {
+    width: 100% !important;
+    }
 }
 
 
