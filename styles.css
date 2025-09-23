@@ -14,7 +14,7 @@ h1 {
     padding: 0 0 15px 0;
 }
 h2 {
-    color: #01016F; /* navy */
+    color: #25104e; /* navy */
     font-weight: 700;
     font-size: 20px;
     line-height: 26px;
@@ -42,6 +42,9 @@ p {
     font-weight: 600;
 }
 #mainContent a:hover { color: #8ba0c4; }
+#globalContainer #siteFooter {
+    background-color: #25104e; /* navy */
+}
 ul, ol {
     margin: 0px 0 0 24px;
     padding: 0 0 10px 0;
@@ -220,7 +223,7 @@ iframe.schedule {
 }
 a.button.blue, a.button.red, a.button.ltblue {
     display: inline-block;
-    background-color: rgb(24, 41, 87);
+    background-color: #25104e;
     color: #fff !important;
     padding: 12px;
     float: left;
