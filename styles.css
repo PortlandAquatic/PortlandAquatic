@@ -385,6 +385,13 @@ p.stylesheet {display:none !important;}
 @media (max-width: 991px) {
     .OrganLink img { display: none; }
     a.button.blue, a.button.red,a.button.ltblue { float:none; margin: 0 8px;}
+	.widget_MobileHeader, .CMSMobileHeader {
+    background-color: #25104e !important;
+    color: #FFFFFF;
+    }
+	#globalTopBar .CMSComponentGoogleTranslate {
+    padding: 8px;
+    }
 	#footerData .CMSSectionSlot.Slot0 {
     display: none;
     }
