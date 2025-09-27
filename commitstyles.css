@@ -4,3 +4,13 @@ h3 { color:#8ba0c4;font-size:32px;line-height:38px; }
 .button.magenta {background-color:#9d2762; }
 .button.ltblue {background-color:#8ba0c4; }
 .button:hover {background-color:#333333 !important;color:#ffffff !important; } 
+.button.large i {
+    display: block;
+    margin: auto;
+    font-size: 48px;
+    padding-bottom: 10px;
+}
+.button.large {
+    font-size: 20px;
+    padding: 16px;
+}
