@@ -16,3 +16,191 @@ h4 { color:#25104e;font-size:28px;line-height:34px; }
     font-size: 20px;
     padding: 16px;
 }
+
+/* responsive table formatting */
+	
+.resp-table {
+	width: 100%;
+	display: table;
+	table-layout: auto;
+}
+.resp-table-header{
+	display: table-header-group;
+	background-color: #8ba0c4;
+	color: white;
+}
+.table-header-cell{
+	display: table-cell;
+	padding: 10px;
+	margin: auto;
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	font-size: 11pt;
+}
+.resp-table-body{
+	display: table-row-group;
+}
+.resp-table-row{
+	display: table-row;
+}
+.table-row-label{
+	display: table-cell;
+	text-align: left;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	font-size: 11pt;
+}
+.table-body-cell{
+	display: table-cell;
+	text-align: left;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	font-size: 11pt;
+}
+.table-body-cell .mobile {display: none;}
+.table-body-cell.left{
+	text-align: left;
+}
+.table-body-cell.dues {
+    max-width: 260px;
+}
+.table-body-cell.fee
+ {
+    border-bottom: none;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    background: #f1f1f1;
+ }
+.table-body-cell.usa
+ {
+    border-bottom: none;
+    border-right: 1px solid;
+    background: #f1f1f1;
+}
+.table-body-cell.fee.last { border-bottom: 1px solid; }
+.table-body-cell.usa.last { border-bottom: 1px solid; }
+.table-body-cell.equip {
+	text-align: left;
+	min-width: 120px;
+	padding-right: 3vw;
+}
+.table-body-cell.group {
+	background-color: #8ba0c4;
+	color: white;
+}    
+.table-row-label.group{
+	background-color: #8ba0c4;
+	color: white;
+}
+@media only screen and (max-width: 750px){
+	.resp-table-header {
+	  display: none;
+	}
+	.table-body-cell {
+	  display: flex;
+	}
+	.table-body-cell .mobile {display: block;}
+	.table-row-label {
+	  display: flex;
+	}
+    .table-body-cell.dues {
+    max-width: unset;
+    }
+	.table-body-cell.meetdates::before {
+	 	content: "Meet Dates:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
+	.table-body-cell.invited::before {
+	 	content: "Swimmers Invited:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
+	
+	.table-body-cell.required::before {
+	 	content: "Swimmers Required:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
+	.table-body-cell.meetlocation::before {
+	 	content: "Location:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
+	.table-body-cell.fee {
+    border-bottom: 1px solid;
+    border-left: none;
+    border-right: none;
+    background: #fff;
+    text-align: left;
+    }
+	 .table-body-cell.fee::before {
+	  	content: "PAC Reg Fee:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	} 
+	
+	  .table-body-cell.type::before {
+	  	content: "Membership Type:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	}
+	.table-body-cell.usa {
+    border-bottom: 1px solid;
+    border-left: none;
+    border-right: none;
+    background: #fff;
+    text-align: left;
+    }
+	  .table-body-cell.usa::before {
+	  	content: "USA Swim Reg Fee:";
+	  	font-weight: bold;
+	  	width: 120px;
+	  	min-width: 120px;
+      		padding-right: 3vw;
+	}
+	.table-body-cell.dues::before {
+		content: "Annual Dues (monthly payment):";
+		font-weight: bold;
+		width: 120px;
+		min-width: 120px;
+        	padding-right: 3vw;
+	  }
+	  .table-body-cell.fundraising::before {
+		content: "Fundraising:";
+		font-weight: bold;
+		width: 120px;
+		min-width: 120px;
+        	padding-right: 3vw;
+	  }
+	  .table-body-cell.service::before {
+		content: "Service Hours:";
+		font-weight: bold;
+		width: 120px;
+		min-width: 120px;
+	        padding-right: 3vw;
+	  }	
+	.table-body-cell.equip::before {
+	     content: "Required Equipment:";
+	     font-weight: bold;
+	     width: 120px;
+	     min-width: 120px;
+	     padding-right: 3vw;
+         } 
+	 .table-row-label.group{
+	  	background-color: #8ba0c4;
+	  	color: white;
+	  }
+  }
