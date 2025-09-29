@@ -24,7 +24,6 @@ h4 { color:#25104e;font-size:28px;line-height:34px; }
     margin: auto;
     display: table;
 }
-
 .resp-table {
 	width: 100%;
 	display: table;
@@ -47,9 +46,6 @@ h4 { color:#25104e;font-size:28px;line-height:34px; }
 	border-bottom: 1px solid black;
 	font-weight: bold;
 	font-size: 11pt;
-}
-.resp-table-body{
-	display: table-row-group;
 }
 .resp-table-row{
 	display: table-row;
