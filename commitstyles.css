@@ -17,6 +17,11 @@ h4 { color:#25104e;font-size:28px;line-height:34px; }
     padding: 16px;
 }
 
+/* dropdown menu - setting font */
+.ant-dropdown {
+    font-family: 'Lato', sans-serif;
+}
+
 /* responsive table formatting */
 
 .resp-table-body {
