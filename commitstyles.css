@@ -285,8 +285,8 @@ span.ant-dropdown-trigger.no-style-link {
   .table-body-cell.group::before {
     content: "Group";
     font-weight: bold;
-    width: 120px;
-    min-width: 120px;
+    width: 130px;
+    min-width: 130px;
   }
    .table-body-cell.group{
     background-color: #8ba0c4;
@@ -295,32 +295,32 @@ span.ant-dropdown-trigger.no-style-link {
    .table-body-cell.goal::before {
     content: "Goals & Focus";
     font-weight: bold;
-    width: 120px;
-    min-width: 120px;
+    width: 130px;
+    min-width: 130px;
   } 
     .table-body-cell.age::before {
     content: "Target Age";
     font-weight: bold;
-    width: 120px;
-    min-width: 120px;
+    width: 130px;
+    min-width: 130px;
   }
     .table-body-cell.requirements::before {
     content: "Requirements";
     font-weight: bold;
-    width: 120px;
-    min-width: 120px;
+    width: 130px;
+    min-width: 130px;
   }
     .table-body-cell.meets::before {
     content: "Meets & Practices";
     font-weight: bold;
-    width: 120px;
-    min-width: 120px;
+    width: 130px;
+    min-width: 130px;
   }
     .table-body-cell.hrs::before {
     content: "Hours/Week";
     font-weight: bold;
-    width: 120px;
-    min-width: 120px;
+    width: 130px;
+    min-width: 130px;
   }
 	
   }
