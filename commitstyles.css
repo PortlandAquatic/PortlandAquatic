@@ -3,7 +3,7 @@
     padding: 50px 0 0 0 !important;
 }
 .render-block-container .render-block.commit-html-override.ql-editor {
-    max-width: 1000px !important;
+    max-width: 1200px !important;
 }
 
 /* headers */
@@ -86,7 +86,6 @@ span.ant-dropdown-trigger.no-style-link {
 /* responsive table formatting */
 
 .resp-table-body {
-   /* max-width: 936px; commented out because container styles will handle this */
     margin: auto;
     display: table;
 }
