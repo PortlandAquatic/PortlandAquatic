@@ -5,6 +5,16 @@
 .render-block-container .render-block.commit-html-override.ql-editor {
     max-width: 1200px !important;
 }
+/* set background of entire content area - may or may not override grey background settings*/
+main section.commitflex div {
+    background-color: #ffffff !important;
+}
+/* this sets a boundary on the two column sections */
+.commitflex.commitcenteralign {
+    max-width: 1200px;
+    margin: auto;
+}
+
 
 /* headers */
 h1 { color:#25104e;font-weight:400; font-size: 44px; line-height: 50px; } 
