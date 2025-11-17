@@ -126,7 +126,7 @@ img.coach {
 /* responsive table formatting */
 
 .resp-table-body {
-    margin: auto;
+    margin: 0 auto 0 0;
     display: table;
 }
 .resp-table {
