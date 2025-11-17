@@ -111,7 +111,7 @@ span.ant-dropdown-trigger.no-style-link {
 }
 /* image styling */
 
-img.coach { height: auto; width: 300px; padding: 0px 20px 10px 0px; float: left; }
+img.coach { height: auto; width: 300px; padding: 6px 20px 10px 0px; float: left; }
 @media only screen and (max-width: 600px){
 img.coach {
         padding-bottom: 20px;
