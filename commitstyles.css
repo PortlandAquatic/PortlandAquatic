@@ -112,6 +112,7 @@ span.ant-dropdown-trigger.no-style-link {
 /* image styling */
 
 img.coach { height: auto; width: 300px; padding: 6px 20px 10px 0px; float: left; }
+img.alignright { height: auto; width: 30%; padding: 0 0 20px 20px; float: right; }
 @media only screen and (max-width: 600px){
 img.coach {
         padding-bottom: 20px;
@@ -121,6 +122,7 @@ img.coach {
         float: none !important;
         display: block !important;
 }
+img.alignright { height: auto; width: auto; max-width: 100%; padding: 0 0 20px 0; float: none; }	
 }
 
 /* responsive table formatting */
