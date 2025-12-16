@@ -128,7 +128,7 @@ ul.arrow-list li:before {
     width: 100%;
 }
 
-iframe.schedule {
+iframe.schedule, iframe.map, iframe.form {
     max-width: 100%;
 }
 
