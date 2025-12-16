@@ -109,6 +109,12 @@ span.ant-dropdown-trigger.no-style-link {
     top: 0;
     width: 100%;
 }
+/* iframes */
+
+iframe.schedule, iframe.map, iframe.form {
+    max-width: 100%;
+}
+
 /* image styling */
 
 img.coach { height: auto; width: 300px; padding: 6px 20px 10px 0px; float: left; }
