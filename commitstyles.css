@@ -90,6 +90,27 @@ span.ant-dropdown-trigger.no-style-link {
     font-family: 'Lato', sans-serif;
 }
 
+/* mobile menu */
+.ant-drawer-content-wrapper {
+    font-family: 'Lato', sans-serif;
+}
+.ant-drawer-content-wrapper span.no-style-link {
+    width: 150px !important;
+    background-color: #9d2762 !important;
+    margin: 0 auto;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.ant-drawer-content-wrapper span.no-style-link a, .ant-drawer-content-wrapper span.no-style-link a:hover {
+    color: #fff;
+}
+.ant-menu-light .ant-menu-submenu-title:hover,
+.ant-menu-item a:hover {
+    color: rgba(0, 0, 0, .85);
+}
+
 /* video wrapper */
 
 .videowrapper {
