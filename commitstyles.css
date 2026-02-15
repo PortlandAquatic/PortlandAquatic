@@ -17,12 +17,9 @@ main section.commitflex div {
 
 
 /* headers */
-h1 { color:#25104e;font-weight:400; font-size: 44px; line-height: 50px; } 
-/* wysiwyg header should match h1 styling */
-.liznQg { color:#25104e !important;font-weight:400 !important; font-size: 44px !important; line-height: 50px !important;}
 
 /* main page header */
-h2.MuiTypography-root { color:#9d2762 !important;font-weight:400 !important; font-size: 44px !important; line-height: 50px !important;}
+main .MuiBox-root h2.MuiTypography-root { color:#25104e !important;font-weight:400 !important; font-size: 44px !important; line-height: 50px !important;}
 
 main .MuiBox-root h2 {
     color: #25104e !important;
