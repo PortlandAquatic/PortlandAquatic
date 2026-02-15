@@ -24,8 +24,8 @@ main .MuiBox-root h2.MuiTypography-root { color:#25104e !important;font-weight:4
 main .MuiBox-root h2 {
     color: #25104e !important;
     font-weight: 400 !important;
-    font-size: 32px !important;
-    line-height: 38px !important;
+    font-size: 30px !important;
+    line-height: 36px !important;
     margin: 0;
     padding: 0 0 15px 0;
 }
@@ -34,8 +34,8 @@ main .MuiBox-root h2 {
 main .MuiBox-root h3 {
     color: #8ba0c4;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 28px;
     margin: 0;
 }
 
