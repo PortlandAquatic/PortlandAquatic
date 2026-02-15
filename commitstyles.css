@@ -96,8 +96,15 @@ main .MuiBox-root a.button.large {
     font-size: 18px;
     padding: 18px 16px 12px 16px;
 }
-
-
+main .MuiBox-root a.MuiButton-root:hover,
+main .MuiBox-root a.MuiButton-root:visited:hover,
+main .MuiBox-root a.MuiButton-root {
+    color: #ffffff !important;
+}
+main .MuiBox-root a.MuiButton-root:hover,
+main .MuiBox-root a.MuiButton-root:visited:hover {
+  background-color: #8ba0c4 !important;
+}
 
 /* top menu and button */
 span.ant-dropdown-trigger.no-style-link {
