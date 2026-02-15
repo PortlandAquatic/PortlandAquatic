@@ -64,11 +64,11 @@ main .MuiBox-root .ql-editor ul li, main .MuiBox-root .ql-editor ol li {
 
 
 /* links */
-main .MuiBox-root  a {
+main .MuiBox-root a, main .MuiBox-root a:visited {
     color: #9d2762 !important;
     font-weight: 600;
 }
-main .MuiBox-root  a:hover {
+main .MuiBox-root a:hover, main .MuiBox-root a:visited:hover {
     color: #8ba0c4 !important;
 }
 /* buttons */
