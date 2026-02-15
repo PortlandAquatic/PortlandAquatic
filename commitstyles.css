@@ -195,10 +195,10 @@ img.alignright { height: auto; width: auto; max-width: 100%; padding: 0 0 20px 0
 }
 
 /* responsive table formatting */
-
 .resp-table-body {
     margin: 0 auto 0 0;
     display: table;
+    font-family: 'Poppins', sans-serif;
 }
 .resp-table {
 	width: 100%;
@@ -228,6 +228,7 @@ img.alignright { height: auto; width: auto; max-width: 100%; padding: 0 0 20px 0
 	font-weight: normal;
 	font-size: 16px;
 }
+
 .resp-table-row{
 	display: table-row;
 }
@@ -244,6 +245,11 @@ img.alignright { height: auto; width: auto; max-width: 100%; padding: 0 0 20px 0
 	padding: 10px;
 	border-bottom: 1px solid black;
 	font-size: 11pt;
+}
+.table-body-cell span {
+    line-height: 16px !important;
+    display: inline-block;
+    font-size: 12px !important;
 }
 .table-body-cell .mobile {display: none;}
 .table-body-cell.left{
