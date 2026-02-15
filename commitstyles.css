@@ -56,6 +56,7 @@ main .MuiBox-root a.button {
     font-size: 18px;
     background-color: #25104e;
     font-weight: normal;
+	text-decoration: none;
 }
 main .MuiBox-root a.button.magenta {background-color:#9d2762; }
 main .MuiBox-root a.button.ltblue {background-color:#8ba0c4; }
