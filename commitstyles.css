@@ -344,6 +344,9 @@ main section.commitflex a.button.large i {
 	.table-row-label {
 	  display: flex;
 	}
+	.table-body-cell span {
+    display: contents;
+    }
     .table-body-cell.dues {
     max-width: unset;
     }
