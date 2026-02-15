@@ -20,8 +20,28 @@ main section.commitflex div {
 h1 { color:#25104e;font-weight:400; font-size: 44px; line-height: 50px; } 
 /* wysiwyg header should match h1 styling */
 .liznQg { color:#25104e !important;font-weight:400 !important; font-size: 44px !important; line-height: 50px !important;}
-h2 { color:#25104e;font-weight:400; font-size: 36px; line-height: 44px; }
-h3 { color:#8ba0c4;font-weight:400; font-size:26px;line-height:32px; } 
+
+/* main page header */
+h2.MuiTypography-root { color:#9d2762 !important;font-weight:400 !important; font-size: 44px !important; line-height: 50px !important;}
+
+main .MuiBox-root h2 {
+    color: #25104e !important;
+    font-weight: 400 !important;
+    font-size: 32px !important;
+    line-height: 38px !important;
+    margin: 0;
+    padding: 0 0 15px 0;
+}
+
+
+main .MuiBox-root h3 {
+    color: #8ba0c4;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0;
+}
+
 /* wysiwyg ditor subtitles should match h3 styling */
 .ql-editor p span.ql-size-large,
 .ql-editor p strong.ql-size-large { color:#8ba0c4;font-weight:400; font-size:26px;line-height:32px; } 
