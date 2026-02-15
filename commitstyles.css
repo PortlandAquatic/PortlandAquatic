@@ -58,12 +58,14 @@ h4 {
 .ql-editor ol, .ql-editor ul { padding-left: 0 !important; }
 .ql-editor ol li:not(.ql-direction-rtl), .ql-editor ul li:not(.ql-direction-rtl) { padding-left: 22px !important; padding-bottom:5px; }
 .ql-editor li.ql-indent-1:not(.ql-direction-rtl) { padding-left: 44px !important; }
+
+
 /* links */
-main section.commitflex a {
+main .MuiBox-root  a {
     color: #9d2762 !important;
     font-weight: 600;
 }
-main section.commitflex a:hover {
+main .MuiBox-root  a:hover {
     color: #8ba0c4 !important;
 }
 /* buttons */
