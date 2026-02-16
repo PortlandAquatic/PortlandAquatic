@@ -7,10 +7,16 @@ main .MuiBox-root {
 	margin-bottom: 0 !important;
 }
 main .MuiBox-root .MuiContainer-root {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 main .MuiBox-root .MuiContainer-root .MuiContainer-root {
     padding-top: 0px;
+}
+main .MuiBox-root.css-0 {
+    padding-top: 50px !important;
+}
+main .MuiBox-root.css-0 .MuiBox-root.css-0 {
+    padding-top: 0 !important;
 }
 /* two col */
 .MuiGrid-root.MuiGrid-container.MuiGrid-direction-xs-row.MuiGrid-spacing-xs-2 {
