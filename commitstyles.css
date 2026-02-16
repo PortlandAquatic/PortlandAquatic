@@ -53,6 +53,9 @@ main section.commitflex div {
     font-weight: 400;
     font-size: 50px;
 }
+.react-parallax-content .ql-editor p span.ql-size-large {
+    color: #ffffff !important;
+}
 
 /* headers */
 
