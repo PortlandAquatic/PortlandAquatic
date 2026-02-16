@@ -303,10 +303,11 @@ img.alignright { height: auto; width: auto; max-width: 100%; padding: 0 0 20px 0
   height: 250px;
 }	
 .react-parallax-content {
-  padding-top: 60px;
+  padding-top: 45px;
 }	
 .react-parallax-content strong.ql-size-huge {
-  font-size: 36px;
+  font-size: 28px;
+	line-height: 36px;
 }	
 .react-parallax .ql-editor .ql-align-center .ql-size-large {
     font-size: 18px;
