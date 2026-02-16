@@ -23,25 +23,6 @@ main .MuiBox-root.css-0 .MuiBox-root.css-0 {
     max-width: 1536px;
     margin: auto;
 }
-
-
-/* OLD  */
-.render-block-container {
-    padding: 50px 0 0 0 !important;
-}
-.render-block-container .render-block.commit-html-override.ql-editor {
-    max-width: 1200px !important;
-}
-/* set background of entire content area - may or may not override grey background settings*/
-main section.commitflex div {
-    background-color: #ffffff !important;
-}
-/* this sets a boundary on the two column sections */
-.commitflex.commitcenteralign {
-    max-width: 1200px;
-    margin: auto;
-}
-
 /* Home Parallax */
 .react-parallax {
     height: 400px;
@@ -177,27 +158,6 @@ span.ant-dropdown-trigger.no-style-link {
 /* dropdown menu - setting font */
 .ant-dropdown {
     font-family: 'Lato', sans-serif;
-}
-
-/* mobile menu */
-.ant-drawer-content-wrapper {
-    font-family: 'Lato', sans-serif;
-}
-.ant-drawer-content-wrapper span.no-style-link {
-    width: 150px !important;
-    background-color: #9d2762 !important;
-    margin: 0 auto;
-    color: #fff;
-    padding: 10px 0;
-    border-radius: 5px;
-}
-
-.ant-drawer-content-wrapper span.no-style-link a, .ant-drawer-content-wrapper span.no-style-link a:hover {
-    color: #fff;
-}
-.ant-menu-light .ant-menu-submenu-title:hover,
-.ant-menu-item a:hover {
-    color: rgba(0, 0, 0, .85);
 }
 
 /* video wrapper */
@@ -339,12 +299,21 @@ img.alignright { height: auto; width: auto; max-width: 100%; padding: 0 0 20px 0
     font-size: 44px;
     line-height: 44px;
 }
+.react-parallax {
+  height: 250px;
+}	
+.react-parallax-content {
+  padding-top: 60px;
+}	
+.react-parallax-content strong.ql-size-huge {
+  font-size: 36px;
+}	
 .react-parallax .ql-editor .ql-align-center .ql-size-large {
-    font-size: 22px;
-    line-height: 30px !important;
+    font-size: 18px;
+    line-height: 26px !important;
     box-sizing: unset;
     display: inline-block;
-    padding-top: 20px;
+    padding-top: 0px;
 }
 .liznQg {
     font-size: 36px !important;
