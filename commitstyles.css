@@ -31,6 +31,17 @@ main section.commitflex div {
     margin: auto;
 }
 
+/* Home Parallax */
+.react-parallax {
+    height: 400px;
+}
+.react-parallax-content {
+    padding-top: 130px;
+}
+.react-parallax-content strong.ql-size-huge {
+    font-weight: 400;
+    font-size: 50px;
+}
 
 /* headers */
 
