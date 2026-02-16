@@ -12,6 +12,11 @@ main .MuiBox-root .MuiContainer-root {
 main .MuiBox-root .MuiContainer-root .MuiContainer-root {
     padding-top: 0px;
 }
+/* two col */
+.MuiGrid-root.MuiGrid-container.MuiGrid-direction-xs-row.MuiGrid-spacing-xs-2 {
+    max-width: 1536px;
+    margin: auto;
+}
 
 
 /* OLD  */
