@@ -41,7 +41,7 @@ main .MuiBox-root.css-0 .MuiBox-root.css-0 {
 /* headers */
 
 /* main page header */
-main .MuiBox-root h2.MuiTypography-root { color:#25104e !important;font-weight:400 !important; font-size: 44px !important; line-height: 50px !important;}
+main .MuiBox-root h2.MuiTypography-root { color:#25104e !important;font-weight:400 !important; font-size: 44px !important; line-height: 50px !important;padding: 12px 15px 25px;}
 
 main .MuiBox-root h2 {
     color: #25104e !important;
