@@ -107,12 +107,12 @@ main .MuiBox-root a.button {
     border-radius: 5px;
     margin: 15px 15px 0 0;
     font-size: 18px;
-    background-color: #25104e;
+    background-color: #25104e !important;
     font-weight: normal;
 	text-decoration: none;
 }
-main .MuiBox-root a.button.magenta {background-color:#9d2762; }
-main .MuiBox-root a.button.ltblue {background-color:#8ba0c4; }
+main .MuiBox-root a.button.magenta {background-color:#9d2762 !important; }
+main .MuiBox-root a.button.ltblue {background-color:#8ba0c4 !important; }
 main .MuiBox-root a.button:hover {background-color:#333333 !important;color:#ffffff !important; } 
 main .MuiBox-root a.button.large i {
     display: block;
