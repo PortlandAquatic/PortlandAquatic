@@ -256,6 +256,9 @@ img.alignright { height: auto; width: auto; max-width: 100%; padding: 0 0 20px 0
 	border-bottom: 1px solid black;
 	font-size: 11pt;
 }
+.table-body-cell strong {
+    display: contents;
+}
 .table-body-cell span {
     line-height: 16px !important;
     display: inline-block;
