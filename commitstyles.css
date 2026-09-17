@@ -288,8 +288,8 @@ img.alignright { height: auto; width: auto; max-width: 100%; padding: 0 0 20px 0
 .table-body-cell.season,
 .table-body-cell.equip {
 	text-align: left;
-	min-width: 120px;
-	padding-right: 3vw;
+	min-width: 180px;
+	padding-right: 20px;
 }
 .table-body-cell.group {
 	background-color: #8ba0c4 !important;
