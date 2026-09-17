@@ -490,6 +490,9 @@ main section.commitflex a.button.large i {
 	     min-width: 120px;
 	     padding-right: 3vw;
          } 
+	.table-body-cell.special.empty {
+    display: none;
+}
 	.table-row-label.month,
 	 .table-row-label.group{
 	  	background-color: #8ba0c4;
