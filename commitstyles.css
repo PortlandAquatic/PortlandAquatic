@@ -46,6 +46,7 @@ main .ql-editor.commit-html-override {
 /* main page header */
 main .MuiBox-root h2.MuiTypography-root { color:#25104e !important;font-weight:400 !important; font-size: 44px !important; line-height: 50px !important;padding: 12px 0px 25px;}
 
+#commit-html-root h2,
 main .MuiBox-root h2 {
     color: #25104e !important;
     font-weight: 400 !important;
@@ -55,7 +56,7 @@ main .MuiBox-root h2 {
     padding: 0 0 15px 0;
 }
 
-
+#commit-html-root h3,
 main .MuiBox-root h3 {
     color: #8ba0c4;
     font-weight: 400;
@@ -73,7 +74,7 @@ h4 {
 	font-weight: 400;
 }
 
-/* wysiwyg ditor subtitles should match h3 styling */
+/* wysiwyg editor subtitles should match h3 styling */
 .ql-editor p span.ql-size-large, .ql-editor p strong.ql-size-large {
     color: #8ba0c4 !important;
     font-weight: 400;
@@ -83,6 +84,7 @@ h4 {
 
 
 /* styles for ol and ul lists */
+#commit-html-root ul, #commit-html-root ol,
 main .MuiBox-root ul, main .MuiBox-root ol {
     margin: 0 0 0 20px !important;
     padding: 0 !important;
@@ -105,8 +107,8 @@ main .MuiBox-root a:visited {
     color: #9d2762 !important;
     font-weight: 600;
 }
-#commit-html-root  a:hover,
-#commit-html-root  a:visited:hover,
+#commit-html-root a:hover,
+#commit-html-root a:visited:hover,
 main .MuiBox-root a:hover, 
 main .MuiBox-root a:visited:hover {
     color: #8ba0c4 !important;
@@ -362,22 +364,20 @@ h4 {
     font-size: 18px;
     line-height: 26px;
 }
+#commit-html-root a.button.large,
 main section.commitflex a.button.large {
     font-size: 14px;
     padding: 15px 10px 10px;
     margin: 15px 4px 0;
     font-size: 14px;
 }
+#commit-html-root a.button.large i,
 main section.commitflex a.button.large i {
     display: block;
     margin: auto;
     font-size: 42px;
     padding-bottom: 8px;
 }
-
-
-
-	
 	.resp-table-header {
 	  display: none;
 	}
