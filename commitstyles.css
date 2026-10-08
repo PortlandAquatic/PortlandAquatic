@@ -99,14 +99,20 @@ main .MuiBox-root .ql-editor li.ql-indent-1:not(.ql-direction-rtl) {
 }
 
 /* links */
-main .MuiBox-root a, main .MuiBox-root a:visited {
+.commit-html-root a,
+main .MuiBox-root a, 
+main .MuiBox-root a:visited {
     color: #9d2762 !important;
     font-weight: 600;
 }
-main .MuiBox-root a:hover, main .MuiBox-root a:visited:hover {
+.commit-html-root  a:hover,
+.commit-html-root  a:visited:hover,
+main .MuiBox-root a:hover, 
+main .MuiBox-root a:visited:hover {
     color: #8ba0c4 !important;
 }
 /* buttons */
+.commit-html-root a.button,
 main .MuiBox-root a.button {
     display: inline-block;
     color: #ffffff !important;
@@ -118,15 +124,26 @@ main .MuiBox-root a.button {
     font-weight: normal;
 	text-decoration: none;
 }
-main .MuiBox-root a.button.magenta {background-color:#9d2762 !important; }
-main .MuiBox-root a.button.ltblue {background-color:#8ba0c4 !important; }
-main .MuiBox-root a.button:hover {background-color:#333333 !important;color:#ffffff !important; } 
+.commit-html-root a.button.magenta,
+main .MuiBox-root a.button.magenta 
+{background-color:#9d2762 !important; }
+
+.commit-html-root a.button.ltblue,
+main .MuiBox-root a.button.ltblue 
+{background-color:#8ba0c4 !important; }
+
+.commit-html-root a.button:hover,
+main .MuiBox-root a.button:hover 
+{background-color:#333333 !important;color:#ffffff !important; } 
+
+.commit-html-root  a.button.large i,
 main .MuiBox-root a.button.large i {
     display: block;
     margin: auto;
     font-size: 48px;
     padding-bottom: 10px;
 }
+.commit-html-root a.button.large,
 main .MuiBox-root a.button.large {
     font-size: 18px;
     padding: 18px 16px 12px 16px;
